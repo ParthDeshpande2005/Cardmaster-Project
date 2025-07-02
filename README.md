@@ -22,12 +22,13 @@ This is a simple web application that allows users to upload an image of a playi
 
 ## 🚀 How to Run Locally
 
-1. **Clone the Repository**
 ```bash
+1. **Clone the Repository**
 git clone https://github.com/your-username/card-classifier-app.git
 cd card-classifier-app
 
 2. **Clone the Repository**
+'''bash
 pip install -r requirements.txt
 
 3. **Run App**
