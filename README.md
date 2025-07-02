@@ -19,6 +19,15 @@ This is a simple web application that allows users to upload an image of a playi
 | Hosting    | Localhost or Web server (optional) |
 
 
+## Images
+![1](https://github.com/user-attachments/assets/4e5edf78-710e-48a9-aa67-5bb308ac72aa)
+
+![2](https://github.com/user-attachments/assets/69055390-b7cf-49f6-82a8-fd6e7b38a476)
+
+![3](https://github.com/user-attachments/assets/48420ee8-a818-4a4b-b219-f9d9234731ee)
+
+
+
 
 ## 🚀 How to Run Locally
 
@@ -36,3 +45,4 @@ python app.py
 
 4. Access In Browser
 http://127.0.0.1:5000
+
