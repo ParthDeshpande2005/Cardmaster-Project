@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CardMaster | Result</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #fff; text-align: center; padding: 50px; margin: 0; }
+        nav {
+            background-color: #333;
+            padding: 14px;
+            text-align: right;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        h2 {
+            color: #2e8b57;
+        }
+        img {
+            max-width: 300px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+        .prediction {
+            font-size: 22px;
+            margin-top: 30px;
+            color: #444;
+        }
+        a.btn {
+            margin-top: 30px;
+            display: inline-block;
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a.btn:hover { background-color: #256e46; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/input">Predict</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <h2>Prediction Result</h2>
+    <img src="{{ image_path }}" alt="Uploaded Image">
+    <div class="prediction">
+        <strong>Predicted Card:</strong> {{ prediction }}
+    </div>
+    <a href="/input" class="btn">Try Another</a>
+</body>
+</html>

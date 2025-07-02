@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CardMaster | Upload Card</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; background-color: #f0f0f0; margin: 0; }
+        nav {
+            background-color: #333;
+            padding: 14px;
+            text-align: right;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        h2 {
+            margin-top: 40px;
+            color: #2e8b57;
+        }
+        form {
+            margin-top: 30px;
+        }
+        input[type=file] {
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        input[type=submit] {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type=submit]:hover {
+            background-color: #256e46;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/input">Predict</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <h2>Image Classification</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label>Upload Your Image:</label><br>
+        <input type="file" name="file" accept="image/*" required><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
